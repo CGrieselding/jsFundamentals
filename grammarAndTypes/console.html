@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console</title>
+</head>
+
+<body>
+    <h1>The Console</h1>
+
+    <!-- ul>li*4 (gives you the unordered list below) -->
+    <ul>
+        <li>Humans make errors. Gasp!</li>
+        <li>The browser is home of the console.</li>
+        <li>The Console Object </li>
+        <!-- ul>li*5 -->
+            <ul>
+                <li>console.log()</li>
+                <li>console.warn()</li>
+                <li>console.error()</li>
+                <li>console.table()</li>
+                <li>And many more!</li>
+            </ul>
+        <li>The console is ONLY used for debugging.</li>
+    </ul>
+
+    <script>
+        console.log('This message is a string');
+        let name = 'Cameron';
+        console.log('Log:', name); // The comma in this console.log will put a space once JS runs (no need to add extra spaces)
+
+        console.warn('This is a warning'); // This (a warning) will show up with a yellow triangle once JS runs. A warning is NOT an error!
+        let warning = 'Uh oh...';
+        console.warn('Warn:', warning);
+
+        console.error('This is an error message'); // This (a error) will show up with a red X and be highlighted red once JS runs.
+        let err = 'This is looking real bad';
+        console.error('Error:', err);
+
+        let arr = [1,2,3,4,5,6];
+        console.table(arr); // This will list out your information in a table format.
+    </script>
+    
+</body>
+</html>

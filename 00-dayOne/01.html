@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="01.css">
+    <style>
+        body {background-color: #d0d0d0;
+        padding: 1em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #mainTitle {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <!--Emmet for the below h1: h1#mainTitle-->
+
+    <h1 id="mainTitle">First Day Notes:</h1>
+
+    <!-- When typing emmet abbreviations, you will type the tag name (h2 in this case),
+    and then any classes or ids that will go onto the tag . Then you will press enter to create
+    the tag(s). If the emmet suggestion goes away due to a typo, press ctrl + space to get
+    suggestion to return -->
+
+    <h2>NOTES</h2>
+
+    <!-- Emmet for the below ul: ul.notes#list -->
+    <ul class="notes" id="list">
+        <!-- alt+shift+up or down will duplicate the line the cursor is on either above
+        or below (depending which arrow you click) -->
+        <!-- Emmet for the below list items: li.list-items*11 (this creates 11 of the same line of code)-->
+        <li class="list-tems">When using Emmet, class is noted by a "." and id is by "#"</li>
+        <li class="list-tems">HTML stands for Hypertext Markup Language</li>
+        <li class="list-tems">DOCTYPE states the type of our document. In this case, HTML</li>
+        <li class="list-tems">Our HTML tag denotes our language to be English, per the lang="en"</li>
+        <li class="list-tems">The head tag houses metadata, or detailed data about our doc</li>
+        <li class="list-tems">UTF-8 specifies character encoding. Each character (letter, number, spaces) has a numeric value</li>
+        <li class="list-tems">viewport notes the device we are reading our document on</li>
+        <li class="list-tems">title reflects the name that displays on our browser tab</li>
+        <li class="list-tems">link allow us to connect to other files, such as our stylesheet (css)</li>
+        <li class="list-tems">a style tag can help us inject css into our document *not the best practice though*</li>
+        <li class="list-tems">the body tag houses all the other tags that we want to display onto our browser. This will be what the user sees!</li>
+    </ul>
+    
+    <!-- hold down ctrl and press / to make a comment -->
+    <!-- exmaple of a comment on a pre-existing line -->
+    <!-- example
+    of
+    a
+    multi
+    line
+    comment -->
+
+    <!-- h1-h6 Tags -->
+    <!-- <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6> -->
+
+    <div class="twoTruthsAndOneLie">
+    
+        <div id="web">
+        <h1>Two Truths and a Lie</h1>
+        <h3>Web Development</h3>
+        <p>I am already extremely proficient in the use of HTML and CSS.</p>
+        </div>
+
+        <div id="running">
+        <h3>Running</h3>
+        <p>I enjoy running and my fastest mile time is under 5 minutes.</p>
+        </div>    
+
+        <div id="puppy">
+       <h3>Puppy</h3>
+       <p>My wife and I just welcomed a new Bernedoodle puppy into our family.</p>
+       </div>
+
+    </div>
+
+    <h2>Movies!</h2>
+
+    <table border="3">
+        <tr>
+            <th>Movie Title</th>
+            <th>Year</th>
+            <th>Runtime</th>
+            <th>Rating</th>
+        </tr>
+
+        <tr>
+            <td class="movieTitle">Inception</td>
+            <td>2010</td>
+            <td>2 Hours 42 Minutes</td>
+            <td>PG-13</td>
+        </tr>
+
+        <tr>
+            <td class="movieTitle">Interstellar</td>
+            <td>2014</td>
+            <td>2 Hours 55 Minutes</td>
+            <td>PG-13</td>
+        </tr>
+
+        <tr>
+            <td class="movieTitle">Bruce Almighty</td>
+            <td>2003</td>
+            <td>1 Hour 41 Minutes</td>
+            <td>PG-13</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+.wrapper {margin: 5px;}
+
+.twoTruthsAndOneLie h1{color: lightgreen; text-align: center;}
+
+.twoTruthsAndOneLie h3{color:blue}
+
+.twoTruthsAndOneLie p{color: red;}
+
+.twoTruthsAndOneLie {margin: 5px; border: 15px solid black; 
+             background-color: grey; border-radius: 10px;}
+ 
+#web {background-color: grey; border: 5px dashed black;}
+
+#running {background-color: grey; border: 5px dotted black;}
+
+#puppy {background-color: grey; border: 5px dotted black;}
+
+h2 {text-align: center;}
+
+table {border: 2px solid black; background-color: lightskyblue; margin-left: auto; margin-right: auto;}
+
+.movieTitle {font-style: italic;}
