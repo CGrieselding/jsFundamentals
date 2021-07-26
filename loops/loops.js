@@ -202,3 +202,15 @@ for(worker of officeCharacters){
 if(worker === 'Jim' && worker !== 'Dwight'){    // OF NOTE: Here we are saying worker is equal to 'Jim' AND worker (which is 'Jim') is not equal to 'Dwight', which is true!
     console.log('Bears. Beets. Battlestar Galactica.'); // Since both of the if's above are TRUE we should see an answer of Bears. Beets. Battlestar Galactica.
 }
+
+// CHALLENGE!
+
+for(let x = 1; x <= 100; x ++){
+   if(x % 3 == 0 && x % 5 == 0){
+       console.log('FIZZ BUZZ');
+   } else if(x % 3 == 0){
+       console.log('FIZZ');
+   } else if(x % 5 == 0){
+       console.log('BUZZ');
+   } else console.log(x);
+}
