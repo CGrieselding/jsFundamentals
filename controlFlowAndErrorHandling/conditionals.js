@@ -188,7 +188,7 @@ switch(instructor){
     case 'Josh':
         console.log(`${instructor} is a part of the Software Development Team`);
         break;
-    default: // this default: is similar to the else {
+    default: // this default: is similar to the else
         console.log(`Sorry, I can't find what ${instructor} teaches at this time`);
 }
 

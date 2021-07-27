@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to DOM Manipulation</title>
+</head>
+<body>
+
+    <!--
+        DOM stands for Document Object Model, and is what allows our JavaScript to interact with the HTML & CSS of our page.
+        The DOM specifies how browsers should create a model of an HTML page and how JavaScipt can access and update the contents
+        of a web page while it is in the browser's window.
+
+        DOM is an object representation of a web page, which can be modified with a scripting language like JavaScript.
+
+        Two Primary Functions of DOM
+            1. Making a model of an HTML page
+                - When the browser loads a webpage, it creates a model of the page in memory.
+                - The DOM specifies the way in which the browser should structure the model in what is called
+                the DOM tree. The DOM is called an "object model" because the DOM tree is made of objects.
+
+            2. Accessing and changing the HTML page
+                - The DOM also provides methods and properties to access and update each object in the model, which
+                in turn updates what the user sees in the browser.
+        
+        Usually when working with the DOM tree, we will acess an element we want to work with, and then we will modify,
+        or manipulate, it.
+
+        ACCESSING:
+            COMMON METHODS FOR ACCESSING A SINGLE ELEMENT
+                - getElementById()
+                - querySelector()
+            
+            COMMON METHODS FOR ACCESSING MULTIPLE ELEMENTS
+                - querySelectorAll()
+                - getElementByClassName()
+                - getElemenetByTagName()
+        
+        MANIPULATING:
+            COMMON METHODS FOR WORKING WITH HTML CONTENT:
+                - innerHTML -- NOTE: there are no parenthesis after these because they are a property (not a method)
+                - textContent
+                - createElement
+            
+            COMMON METHODS FOR WORKING WITH TAG ATTRIBUTES:
+                - className / id
+                - setAttribute()
+                - getAttribute()
+    -->
+
+
+    <!-- ! 1 -->
+
+    <p id="testParagraph">Sample Text</p>
+
+    <!-- ! 2 -->
+
+    <p class="sampleClass">A class paragraph</p>
+    <p class="sampleClass">A class paragraph</p>
+    <p class="sampleClass">A class paragraph</p>
+    <p class="sampleClass">A class paragraph</p>
+    <h2 class="sampleClass">Another example</h2>
+    <hr/>
+
+    <span id ="spanTest">Hello<span style="display: none">World</span></span> <!--NOTICE: "World" does not display on the page because
+                                                                                of the style = "display: none"-->
+    <br/>
+    <hr/>
+
+    <!-- ! 3 -->
+    <button id="clickThis">Click!</button>
+
+    <br/>
+    <hr/>
+
+    <!-- ! 4 -->
+    <label for="nameInput">Enter your name:</label><br/>
+    <input type="text" id="nameInput" placeholder="Your Name Here" /> 
+
+
+    <!--
+        We can write JavaScript directly in our HTML page by typing it within a <script>
+            tag, similar to how we would write CSS in a <style> tag.
+    -->
+
+    <script>
+        // now we can write some JavaScript
+        console.log('Hello from the script tag!'); // When pulling up the HTML page, you will see this string in the console when you inspec the page
+    </script>
+
+    <!--
+        What if we want to use an external JavaScript file in this webpage?
+    -->
+
+    <script src = "script.js"></script>
+
+</body>
+</html>

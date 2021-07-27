@@ -214,3 +214,35 @@ for(let x = 1; x <= 100; x ++){
        console.log('BUZZ');
    } else console.log(x);
 }
+
+
+
+for(let num = 0; num <= 10; num ++){
+    if (num % 2 == 0){
+      console.log('The number is even.');
+    } else if (num % 2 == 1){
+      console.log('The number is odd.');
+    } else {
+      console.log('What is this?');
+    }
+  }
+
+
+
+let callback = (num) => {
+    if(num % 2 == 0){
+      console.log('The number is even.');
+      } else if (num % 2 == 1) {
+          console.log('The number is odd.');
+      } else console.log('What is this?');
+  }
+
+  callback(17);
+
+for(let num = 0; num <= 10; num ++){
+    if (num % 2 == 0){
+      console.log(`${num} The number is even.`);
+      } else if (num % 2 == 1){
+        console.log('The number is odd.');
+      } else console.log('What is this?');
+    }
