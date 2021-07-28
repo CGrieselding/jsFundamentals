@@ -59,11 +59,11 @@ console.log(document.getElementById('spanTest').innerHTML);    // Hello<span sty
 
 // ! 3 - addEventListener() 
 
-document.getElementById('clickThis').addEventListener('click',
+/* document.getElementById('clickThis').addEventListener('click',
     function(event){
         console.log(event.target);
         event.target.style.backgroundColor = '#031BFE'
-    })
+    }) */
 
 
 // ! 4 - addEventListener - keyup
@@ -80,4 +80,28 @@ input.addEventListener('keyup', e => {
       } else {
           document.getElementsByTagName('p')[1].innerText = `Everyone, say hello to ${e.target.value}`;
       }
+})
+
+
+/* CHALLENGE! Using the below example: Move the button into a variable, and when you click the button
+it will turn blue, or if it is already blue, it will turn red.
+
+document.getElementById('clickThis').addEventListener('click',
+    function(event){
+        console.log(event.target);
+        event.target.style.backgroundColor = '#031BFE'
+    })
+*/
+
+// Here is the answer...
+
+let myFavoriteButton = document.getElementById('clickThis');
+
+myFavoriteButton.addEventListener('click', ev => {
+    console.log(ev.target.style.backgroundColor);
+    if(ev.target.style.backgroundColor == 'blue'){
+        ev.target.style.backgroundColor = 'red';
+    } else {
+        ev.target.style.backgroundColor = 'blue';
+    }
 })
