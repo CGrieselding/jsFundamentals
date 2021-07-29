@@ -17,7 +17,7 @@ console.log(list[1]);
 
     - JavaScript starts counting at 0, so when we console.log (list[1]) we shouldsee 'banana'
 
-    - OF NOTE: The 'key' is an array is always the index number
+    - OF NOTE: The 'key' in an array is always the index number
 */
 
 let students = ['Evan', 'Ricky', 'Kali', 'Richard', 'Matthew', 'Cameron', 'Pheonix', 25, true, ['Matthew', 'Shake n Bake', 'Sophie'], 15 % 5];
@@ -25,7 +25,7 @@ let students = ['Evan', 'Ricky', 'Kali', 'Richard', 'Matthew', 'Cameron', 'Pheon
 console.log(students[10]); // Let's try to display the modulus (%) equation - the equation has an index of 10, so we would put 10 in the [] and then it will run the modulus equation
 console.log(typeof students); // Answer: object - b/c an array is an OBJECT
 console.log(students instanceof Array); // Answer: true
-    /* In the above console.log - the 'instanceof' operator is used to check  the type of an object at run time.
+    /* In the above console.log - the 'instanceof' operator is used to check the type of an object at run time.
        Remember arrays are technically objects! */
 
 console.log(students[4], students[7], students[9][1], 'Hello', students[9][2]);
@@ -80,7 +80,7 @@ console.log(colors.length); // Answer: 6
     forEach -
     - the forEach() method executes a provided function once for each element in an array.
     - the forEach() method does the same thing as a FOR LOOP or a FOR OF LOOP --> both iterate over the properties in an array
-    - provide a call back function that has up to 3 arguments:
+    - provide a callback function that has up to 3 arguments:
         1. the value
         2. the index
         3. the array object itself

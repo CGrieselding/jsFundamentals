@@ -67,7 +67,7 @@ for(let i = 2; i > -10; i -= 4){
 let word = "Supercalifragilisticexpialidocious"
 
 for(let b = 0; b < word.length; b ++){
-    // .length (see above) is a method we can use in JS that helps determine a value with do not know.
+    // .length (see above) is a method we can use in JS that helps determine a value we do not know.
     console.log(b, word[b]);
 
     /* 1) We set a value of each index and are displaying that.

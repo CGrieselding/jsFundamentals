@@ -48,13 +48,13 @@ let undef = undefined;
 
     // What's the difference between null and undefined?
     /*
-        - null is like a container with nothing in it
-        - undefined is a variable that has never been set, or it hasn't been created yet
+        - null is like a container with nothing in it.
+        - undefined is a variable that has never been set, or it hasn't been created yet.
     */
 
 /*
     NUMBERS:
-        - Literally just numbers
+        - Literally just numbers.
 */
 
 let degrees = 82;

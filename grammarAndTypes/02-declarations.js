@@ -34,7 +34,7 @@ let startingWithLetter = 'test';
 let _startingWithUnderscore = 'test';
 let $startingWithDollarsign = 'test';
 // let 5startingWithNumber = 'Breaks'; // CANNOT start a variable name with a number (the number 5 in this example)
-// let -startingWithDash = 'Breaks'; // CANNOT start a variable bname with a dash
+// let -startingWithDash = 'Breaks'; // CANNOT start a variable name with a dash
 
 console.log (startingWithLetter, _startingWithUnderscore, $startingWithDollarsign);
 
@@ -58,7 +58,7 @@ console.log (startingWithLetter, _startingWithUnderscore, $startingWithDollarsig
 
 var variable = 'var variable';
 let letVariable = 'let variable';
-const constVariable = 'cont variable';
+const constVariable = 'const variable';
 
 console.log(variable, letVariable, constVariable);
 
@@ -70,7 +70,7 @@ console.log(variable, letVariable, constVariable);
     Initializations are the RIGHT SIDE of the assignment operator (=) and sets the value of the variable.
         - let x = 10
 
-        10 would be the initialization in the above example
+        10 would be the initialization in the above example.
 */
 
 let x;

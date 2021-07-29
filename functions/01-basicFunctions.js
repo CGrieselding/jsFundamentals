@@ -29,7 +29,7 @@ hi() // By typing this "hi()" later in the document, it will pull from the funct
 
 // What if we console.log() a function?
 console.log(hi()); /* Answer: Hi! AND undefined
-                        When we console.log a function, JS will first evaluate the fucntion, meaning it will run all
+                        When we console.log a function, JS will first evaluate the function, meaning it will run all
                         of the code and look for a value from it. IF we do not have a return statement within the
                         function, we will get back undefined. */
 
@@ -60,7 +60,7 @@ funcOne() // We invoke (or call) a function by writing it's declared name follow
 /*
     FUNCTION EXPRESSIONS
 
-    - Assigning a function to a variable is what we call an expression
+    - Assigning a function to a variable is what we call an EXPRESSION
     - In other words - instead a value defining a variable, a function will define a variable
 */
 

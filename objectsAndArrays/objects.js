@@ -49,7 +49,7 @@ console.log(netflix);
 
 console.log('Just season info:', netflix.season1.seasonInfo);
 
-console.log(netflix.season1.seasonInfo.episodeInfo[0].episodeName);
+console.log(netflix.season1.seasonInfo.episodeInfo[0].episodeName); // Answer: Pilot
 
 
 

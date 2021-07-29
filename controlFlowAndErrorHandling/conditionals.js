@@ -11,12 +11,11 @@
             -undefined
             - NaN (not a number)
     
-        
 
     What does this mean? Whenever JavaScript is expecting a boolean value and is
     given one of these 6, it is evaluated as false.
 
-    OF NOTE: There are also truty values in JavaScript, which tend to be much less
+    OF NOTE: There are also truthy values in JavaScript, which tend to be much less
     limited. Examples include:
         - true
         - {}
@@ -34,7 +33,7 @@
         Ex: If you fill out your email in this subscription box, we will send you a monthly email.
 */
 
-if(true){                      // In this example: if = KEYWORD true = EXPRESSION
+if(true){                      // In this example: if = KEYWORD & true = EXPRESSION
     console.log('Truthy Test');
 }
 
@@ -89,7 +88,7 @@ if (today < 70){
 /*
     ELSE IF
 
-    This is a condition that will be checked if the above condition was not met
+    This is a condition that will be checked if the above condition was not met.
 */
 
 let cooktime = 40;
@@ -121,7 +120,7 @@ if(age <= 17){
 /*
     TERNARIES
 
-    They are if/else statements but they look weird!
+    They are if/else statements, but they look weird!
 */
 
 let myName = 'Cameron';
@@ -147,7 +146,7 @@ let hero = 'Batman';
 let villain = 'Mr. Freeze';
 
 hero  == 'Batman' && villain == 'Riddler' ?
-console.log('What has a head and a tail but no body?') : 
+console.log('What has a head and a tail, but no body?') : 
 hero == 'Batman' && villain == 'Joker' ? 
 console.log('Why so serious?') :
 hero == 'Batman' && villain == 'Mr. Freeze' ?
@@ -181,7 +180,6 @@ switch(instructor){
     case 'Jerome':   // This is going to check if instructor === 'Jerome'
         console.log(`${instructor} is a part of the Web Development Team`);
         break;
-
     case 'Summer':
         console.log(`${instructor} is a part of the Web Development Team`);
         break;
