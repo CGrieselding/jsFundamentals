@@ -182,7 +182,7 @@ for (let pos of indexArray){
 
 /*
     for(variable of iterable){
-        code goes here
+        *code goes here*
     }
 
     OF NOTE: an iterable is something that has numbers assigned to it like an array, where the first
@@ -226,7 +226,6 @@ for(let num = 0; num <= 10; num ++){
       console.log('What is this?');
     }
   }
-
 
 
 let callback = (num) => {
