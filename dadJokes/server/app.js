@@ -6,6 +6,7 @@ const Express = require('express');
 
 // Make a local instance of the express framework
 const app = Express();
+app.use(require('./middleware/headers'));
 app.use(Express.json());
 
 // ** This MUST be below the const Express = require **

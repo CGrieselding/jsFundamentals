@@ -1,21 +1,17 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
-import { useState } from 'react';
+import Auth from './components/Auth/Auth';
 
-function App() {
+const App = () => {
 
-  let prompt = "Enter a puppy's name:";
-  let normalInput = "";
-  let [ stateInput, setStateInput] = useState('');
+    const [token, setToken] = useState('')
 
-  return (
-    <div className="App">
-      {/* normal variable below */}
-      <input placeholder={prompt + '1'} id="firstInput" onChange={(e) => {console.log(e.target.value)}} />
-      {/* state variable below */}
-      <input placeholder={prompt + '2'} id="secondInput" onChange={(e) => {console.log(e.target.value)}} />
-    </div>
-  );
-}
+    return (
+        <div>
+        <h1>App Component</h1>
+        <Auth setToken={setToken} />
+        </div>
+    )
+};
 
 export default App;
